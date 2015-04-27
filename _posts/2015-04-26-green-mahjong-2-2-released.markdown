@@ -35,6 +35,7 @@ puts markdown.to_html
 ```
 
 Test
+
 ```scala
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
