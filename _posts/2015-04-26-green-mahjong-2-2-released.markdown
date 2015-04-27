@@ -22,10 +22,15 @@ Whooo! :-)
 
 
 Here is the full changelog:
+
  * added chinese translation
+
 - support for browser back
+
 + new toolbar button for switching themes
+
 -[SEction] removed a bug which made tiles not selectable under the toolbar.
+
 * made the game working on android, iphone and jolla.
 
 ```ruby
