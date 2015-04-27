@@ -28,7 +28,18 @@ Here is the full changelog:
 -[SEction] removed a bug which made tiles not selectable under the toolbar.
 * made the game working on android, iphone and jolla.
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
+Test
+```scala
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
 
 [LinkToGooglePlay]: https://play.google.com/store/apps/details?id=de.beck.greenmahjong
