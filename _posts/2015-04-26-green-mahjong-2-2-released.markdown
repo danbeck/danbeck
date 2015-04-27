@@ -7,31 +7,32 @@ categories: Green Mahjong
 
 This new release of Green Mahjong is very special and exciting: we worked very hard at porting Green Mahjong on many more platforms. 
 Until now, Green Mahjong was available on:
+
 - Ubuntu touch
 - FirefoxOS
 - Desktop systems ("Firefox" & "Chrome")
 
 
 In the coming days, it will be published in the following stores:
-<ul>
-<li> Android: [Green Mahjong][LinkToGooglePlay]
-<li> Iphone
-<li> Jolla
-</ul>
+
+- Android: [Green Mahjong][LinkToGooglePlay]
+- Iphone
+- Jolla
+
 Whooo! :-)
 
 
 Here is the full changelog:
 
- * added chinese translation
+- added chinese translation
 
 - support for browser back
 
-+ new toolbar button for switching themes
+- new toolbar button for switching themes
 
--[SEction] removed a bug which made tiles not selectable under the toolbar.
+- removed a bug which made tiles not selectable under the toolbar.
 
-* made the game working on android, iphone and jolla.
+- made the game working on android, iphone and jolla.
 
 ```ruby
 require 'redcarpet'
