@@ -83,22 +83,9 @@ class Workspace(override implicit val env: RuntimeEnvironment[User]) extends Phy
     Future.successful(Redirect(routes.Workspace.newProjectPage())
       .flashing("error" -> """The URL must end with ".git". """))
   }
-
-  private def updateUserAndRedirect(projectname: String, gitUrl: String, request: SecuredRequest[AnyContent]) = {
-    val project = models.Project(name = projectname,
-      icon = None,
-      gitUrl = gitUrl,
-      userId = request.user.id,
-      username = request.user.usernameOption.get)
-    project.save()
-
-    val updatedUser = request.user.copy(projects = project :: request.user.projects)
-    request.authenticator.updateUser(updatedUser).flatMap { authenticator =>
-      Redirect(routes.Workspace.user(request.user.usernameOption.get)).touchingAuthenticator(authenticator)
-    }
-  }
 }
 ```
+
 ```scala
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
