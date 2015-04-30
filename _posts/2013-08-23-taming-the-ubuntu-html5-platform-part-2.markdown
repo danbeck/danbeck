@@ -28,7 +28,7 @@ The Ubuntu HTML5 Theme uses "pagestack" as a container for "pages". It has a set
 
 Here is a code snippet with a pagestack contains two pages. Each of them contains a button. Clicking the button shows one page, and hides the other one.
 
-[sourcecode language="html"]
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -65,7 +65,7 @@ button2.addEventListener("click", function() {
 </script>
 </body>
 </html>
-[/sourcecode]
+```
 
 <h1 id="backbutton">The backbutton</h1>
 Another, really useful feature of the Ubuntu HTML5 theme is the "back-button". This button gets automatically added to the toolbar at the bottom of the screen:
