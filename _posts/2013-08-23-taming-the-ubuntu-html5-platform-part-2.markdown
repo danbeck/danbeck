@@ -33,10 +33,11 @@ Here is a code snippet with a pagestack contains two pages. Each of them contain
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="/usr/share/ubuntu-html5-theme/0.1/ambiance/css/appTemplate.css" rel="stylesheet"/>
-    <script src="/usr/share/ubuntu-html5-theme/0.1/ambiance/js/core.js"></script>
-    <script src="/usr/share/ubuntu-html5-theme/0.1/ambiance/js/pagestacks.js"></script>
-    <script src="/usr/share/cordova-ubuntu-2.8/www/cordova-2.8.js"></script>
+    <link href="/usr/share/ubuntu-html5-theme/0.1/ambiance/css/appTemplate.css"
+          rel="stylesheet"/>
+    <script src="/usr/share/ubuntu-html5-theme/0.1/ambiance/js/core.js">
+    <script src="/usr/share/ubuntu-html5-theme/0.1/ambiance/js/pagestacks.js">
+    <script src="/usr/share/cordova-ubuntu-2.8/www/cordova-2.8.js">
   </head>
 
   <body>
