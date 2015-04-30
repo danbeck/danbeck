@@ -17,26 +17,26 @@ Checkbox are &lt;input&gt; HTML elements having the attribute <code>type="checkb
 </ul>
 This &lt;input&gt; element must be followed by an empty "&lt;span&gt;"-element. CSS stylessheets from the Ubuntu HTML5 Theme need this element to set a background image. Here is a code snippet which displays a checkbox:
 
-<pre>
-&lt;div&gt;&lt;label&gt;
-  &lt;input type="checkbox" checked="checked" /&gt;
-  &lt;span&gt;&lt;/span&gt;
-&lt;/label&gt;
+```html
+<div&gt;<label&gt;
+  <input type="checkbox" checked="checked" /&gt;
+  <span&gt;</span&gt;
+</label&gt;
 
-&lt;label&gt;
-  &lt;input type="checkbox" /&gt; &lt;span&gt;&lt;/span&gt;
-  &lt;span&gt;&lt;/span&gt;
-&lt;/label&gt;
+<label&gt;
+  <input type="checkbox" /&gt; <span&gt;</span&gt;
+  <span&gt;</span&gt;
+</label&gt;
 
-&lt;label&gt;
-  &lt;input type="checkbox" checked="checked" disabled="disabled" /&gt;
-  &lt;span&gt;&lt;/span&gt;
-&lt;/label&gt;
+<label&gt;
+  <input type="checkbox" checked="checked" disabled="disabled" /&gt;
+  <span&gt;</span&gt;
+</label&gt;
 
-&lt;label&gt;
-  &lt;input type="checkbox" disabled="disabled" /&gt;
-  &lt;span&gt;&lt;/span&gt;
-&lt;/label&gt;&lt;/div&gt;
+<label&gt;
+  <input type="checkbox" disabled="disabled" /&gt;
+  <span&gt;</span&gt;
+</label&gt;</div&gt;
 </pre>
 
 With Ubuntu HTML5 Theme, this HTML markup looks like this (from left to right: checked, unchecked, disabled and checked, disabled and unchecked):
@@ -46,15 +46,15 @@ With Ubuntu HTML5 Theme, this HTML markup looks like this (from left to right: c
 Checkboxes have no predefined Javascript methods in Ubuntu HTML5. Accessing the state of the checkbox - checked or not checked - must be done with regular Javascript DOM-methods instead:
 
 <pre>
-&lt;label&gt;
-  &lt;input id="checkbox" type="checkbox" checked="disabled" /&gt;
-&lt;/label&gt;
-&lt;script&gt;
+<label&gt;
+  <input id="checkbox" type="checkbox" checked="disabled" /&gt;
+</label&gt;
+<script&gt;
 var checkBoxState = true;
 document.getElementById("checkbox").onclick = function(){
   checkBoxState = !checkBoxState;
 }
-&lt;/script&gt;
+</script&gt;
 </pre>
 
 
@@ -63,13 +63,13 @@ document.getElementById("checkbox").onclick = function(){
 Switches behave like checkboxes, they only look different. The following HTML markup declares a switch:
 
 <pre>
-&lt;label&gt;
-  &lt;input type="checkbox" checked="" data-type="switch"&gt;
-  &lt;span class="toggle"&gt;
-    &lt;span class="toggle-handle"&gt;&lt;/span&gt;
-    &lt;span class="toggle-bg"&gt;&lt;/span&gt;
-  &lt;/span&gt;
-&lt;/label&gt;
+<label&gt;
+  <input type="checkbox" checked="" data-type="switch"&gt;
+  <span class="toggle"&gt;
+    <span class="toggle-handle"&gt;</span&gt;
+    <span class="toggle-bg"&gt;</span&gt;
+  </span&gt;
+</label&gt;
 </pre>
 
 Like checkboxes, switches have the attributes "checked" and "disabled":
