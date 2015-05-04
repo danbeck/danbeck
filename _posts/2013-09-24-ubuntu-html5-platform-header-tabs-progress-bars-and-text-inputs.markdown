@@ -8,34 +8,32 @@ This is one further article about the <a href="http://daniel-beck.org/category/u
 
 <h2>Header</h2>
 The <a href="http://design.ubuntu.com/apps/building-blocks/header">header</a> is an UI component which sits on top of an application.  It
-<ul>
-<li>shows the user, where he is </li>
-<li>switches tabs, which are views of equal importance (see the <a href="http://design.ubuntu.com/apps/building-blocks/tabs">guidelines</a>)</li>
-</ul>
+
+ * shows the user, where he is 
+ * switches tabs, which are views of equal importance (see the <a href="http://design.ubuntu.com/apps/building-blocks/tabs">guidelines</a>)
 
 To show a header containing several tabs, 
-<ul>
-<li>create a <code>section</code> container having an attribute <code>data-role="header"</code></li>
-<li>add list items to that section-element having the attribute <code>data-role="tab"</code></li>
-</ul>
+
+ * create a <code>section</code> container having an attribute <code>data-role="header"</code>
+ * add list items to that section-element having the attribute <code>data-role="tab"</code>
 
 Here is explanatory code snippet:
 
 <pre>
-&lt;header data-role="header"&gt;
-  &lt;nav class="tabs" data-role="navbar"&gt;
-    &lt;div class="tabs-inner"&gt;
-      &lt;ul data-role="tabs"&gt;
-        &lt;li class="active" data-role="tab"&gt;
-          &lt;a href="#item1" id="firstTab"&lt;First&lt;/a&gt;
-        &lt;/li&gt;
-        &lt;li class="inactive" data-role="tab"&gt;
-          &lt;a href="#item2" id="secondTab"&gt;Second&lt;/a&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-  &lt;/nav&gt;
-&lt;/header&gt;
+<header data-role="header">
+  <nav class="tabs" data-role="navbar">
+    <div class="tabs-inner">
+      <ul data-role="tabs">
+        <li class="active" data-role="tab">
+          <a href="#item1" id="firstTab"<First</a>
+        </li>
+        <li class="inactive" data-role="tab">
+          <a href="#item2" id="secondTab">Second</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
 </pre>
 
@@ -51,15 +49,15 @@ Progress bars are new HTML5 elements. Ubuntu HTML5 comes with CSS styling instru
 Declaring progress bars is made as follows:
 
 <pre>
-&lt;progress&gt;&lt;/progress&gt;
-&lt;progress class="bigger"&gt;&lt;/progress&gt;
+<progress></progress>
+<progress class="bigger"></progress>
 </pre>
 
 Here is a link to try out progress bars on JS Bin: <a href="http://jsbin.com/UlAtiSO/3/edit">JS Bin - Progress bars</a>
 
 Progress bars with attributes like <code>"value"</code> or <code>"max"</code> are not styled yet (as of Ubuntu HTML5 Theme version 0.1). Here is an example that will NOT be styled correctly:
 <pre>
-&lt;progress max="100" value="80"&gt;&lt;/progress&gt;
+<progress max="100" value="80"></progress>
 </pre>
 
 <h2>Text inputs</h2>
@@ -71,30 +69,30 @@ HTML5 brings new input types like "number", "url", "email", etc. These new input
  
 Here are some examples to show the individual input types: 
 <pre>
-&lt;div class="inset"&gt;
-  &lt;input type="text" placeholder="simple text field"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;input type="text" disabled="" placeholder="disabled text field"&gt;
-&lt;/div&lt;
-&lt;div class="inset"&gt;
-  &lt;input type="tel" placeholder="telephone field"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;input type="search" placeholder="search field"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;input type="number" placeholder="number field"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;input type="url" placeholder="url field"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;input type="password" placeholder="password with echo"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;textarea placeholder="the placeholder text is a text which is displayed when there is no content in the TextArea"&gt;&lt;/textarea&gt;
-&lt;/div&gt;
+<div class="inset">
+  <input type="text" placeholder="simple text field">
+</div>
+<div class="inset">
+  <input type="text" disabled="" placeholder="disabled text field">
+</div<
+<div class="inset">
+  <input type="tel" placeholder="telephone field">
+</div>
+<div class="inset">
+  <input type="search" placeholder="search field">
+</div>
+<div class="inset">
+  <input type="number" placeholder="number field">
+</div>
+<div class="inset">
+  <input type="url" placeholder="url field">
+</div>
+<div class="inset">
+  <input type="password" placeholder="password with echo">
+</div>
+<div class="inset">
+  <textarea placeholder="the placeholder text is a text which is displayed when there is no content in the TextArea"></textarea>
+</div>
 </pre>
 
 This code can be tried online: <a href="http://jsbin.com/evAMIvi/1/edit">JS Bin - Inputs types</a>.
@@ -109,9 +107,9 @@ Shapes are "decorators" to make elements like images look as follows:
 Using them is simple:
 
 <pre>
-&lt;div data-role="shape"&gt;
-  &lt;img src="http://cordova.apache.org/images/cordova_bot.png"&gt;
-&lt;/div&gt;
+<div data-role="shape">
+  <img src="http://cordova.apache.org/images/cordova_bot.png">
+</div>
 </pre>
 
 Since Shapes are created by using images, setting height and width might make them look bad. 
@@ -121,20 +119,20 @@ The example can be tried online here: <a href="http://jsbin.com/oPUpuMo/1/edit">
 
 The next article will focus on the storage options "localstorage", "WebSQL", and "IndexedDB".
 
-&lt;header data-role="header"&gt;
-  &lt;nav class="tabs" data-role="navbar"&gt;
-    &lt;div class="tabs-inner"&gt;
-      &lt;ul data-role="tabs"&gt;
-        &lt;li class="active" data-role="tab"&gt;
-          &lt;a href="#item1" id="firstTab"&lt;First&lt;/a&gt;
-        &lt;/li&gt;
-        &lt;li class="inactive" data-role="tab"&gt;
-          &lt;a href="#item2" id="secondTab"&gt;Second&lt;/a&gt;
-        &lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/div&gt;
-  &lt;/nav&gt;
-&lt;/header&gt;
+<header data-role="header">
+  <nav class="tabs" data-role="navbar">
+    <div class="tabs-inner">
+      <ul data-role="tabs">
+        <li class="active" data-role="tab">
+          <a href="#item1" id="firstTab"<First</a>
+        </li>
+        <li class="inactive" data-role="tab">
+          <a href="#item2" id="secondTab">Second</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
 
 </pre>
 
@@ -150,51 +148,51 @@ Progress bars are new HTML5 elements. Ubuntu HTML5 comes with CSS styling instru
 Declaring progress bars is made as follows:
 
 <pre>
-&lt;progress&gt;&lt;/progress&gt;
-&lt;progress class="bigger"&gt;&lt;/progress&gt;
+<progress></progress>
+<progress class="bigger"></progress>
 </pre>
 
 Here is a link to try out progress bars on JS Bin: <a href="http://jsbin.com/UlAtiSO/3/edit">JS Bin - Progress bars</a>
 
 Progress bars with attributes like <code>"value"</code> or <code>"max"</code> are not styled yet (as of Ubuntu HTML5 Theme version 0.1). Here is an example that will NOT be styled correctly:
-<pre>
-&lt;progress max="100" value="80"&gt;&lt;/progress&gt;
-</pre>
+ 
+```html
+<progress max="100" value="80"></progress>
+```
 
 <h2>Text inputs</h2>
 HTML5 brings new input types like "number", "url", "email", etc. These new input types have several advantages: 
-<ul>
-<li>Different on screen-keyboards might be used. For example, "numbers" might be entered with a numeric keyboard.</li>
-<li>The input can be validated by the browser before submitting a form to a server. E.g. the type "email" will show an error when the user tries to submit an email address without a "@"-character.</li>
-</ul>
+
+ * Different on screen-keyboards might be used. For example, "numbers" might be entered with a numeric keyboard.
+ * The input can be validated by the browser before submitting a form to a server. E.g. the type "email" will show an error when the user tries to submit an email address without a "@"-character.
  
 Here are some examples to show the individual input types: 
-<pre>
-&lt;div class="inset"&gt;
-  &lt;input type="text" placeholder="simple text field"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;input type="text" disabled="" placeholder="disabled text field"&gt;
-&lt;/div&lt;
-&lt;div class="inset"&gt;
-  &lt;input type="tel" placeholder="telephone field"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;input type="search" placeholder="search field"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;input type="number" placeholder="number field"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;input type="url" placeholder="url field"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;input type="password" placeholder="password with echo"&gt;
-&lt;/div&gt;
-&lt;div class="inset"&gt;
-  &lt;textarea placeholder="the placeholder text is a text which is displayed when there is no content in the TextArea"&gt;&lt;/textarea&gt;
-&lt;/div&gt;
-</pre>
+```html
+<div class="inset">
+  <input type="text" placeholder="simple text field">
+</div>
+<div class="inset">
+  <input type="text" disabled="" placeholder="disabled text field">
+</div<
+<div class="inset">
+  <input type="tel" placeholder="telephone field">
+</div>
+<div class="inset">
+  <input type="search" placeholder="search field">
+</div>
+<div class="inset">
+  <input type="number" placeholder="number field">
+</div>
+<div class="inset">
+  <input type="url" placeholder="url field">
+</div>
+<div class="inset">
+  <input type="password" placeholder="password with echo">
+</div>
+<div class="inset">
+  <textarea placeholder="the placeholder text is a text which is displayed when there is no content in the TextArea"></textarea>
+</div>
+```
 
 This code can be tried online: <a href="http://jsbin.com/evAMIvi/1/edit">JS Bin - Inputs types</a>.
 
@@ -207,11 +205,11 @@ Shapes are "decorators" to make elements like images look as follows:
 
 Using them is simple:
 
-<pre>
-&lt;div data-role="shape"&gt;
-  &lt;img src="http://cordova.apache.org/images/cordova_bot.png"&gt;
-&lt;/div&gt;
-</pre>
+```html
+<div data-role="shape">
+  <img src="http://cordova.apache.org/images/cordova_bot.png">
+</div>
+```
 
 Since Shapes are created by using images, setting height and width might make them look bad. 
 
