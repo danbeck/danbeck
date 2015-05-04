@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Ubuntu HTML5 platform: Storage"
+date:   2013-10-10 21:03:00
+categories: Ubuntu HTML5
+---
 Hi developers of HTML5 apps! 
 
 In 2013, I created an unofficial API reference documentation for the Ubuntu HTML5 Theme. This API reference is outdated now and many example may not run anymore. Additionaly, a officila Ubuntu HTML5 documentation exists now.
