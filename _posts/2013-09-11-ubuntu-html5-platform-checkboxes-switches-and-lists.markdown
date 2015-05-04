@@ -11,10 +11,10 @@ In the last two articles (<a href="<a href=">first article</a> and <a href="http
 
 <h2>Checkboxes</h2>
 Checkbox are <input> HTML elements having the attribute <code>type="checkbox"</code>. Additionally, they can have two attributes:
-<ul>
-	<li>checked: displays the checkbox as "checked"</li>
-	<li>disabled: disables the checkbox so that its state cannot be changed</li>
-</ul>
+
+ * checked: displays the checkbox as "checked"
+ * disabled: disables the checkbox so that its state cannot be changed
+
 This <input> element must be followed by an empty "<span>"-element. CSS stylessheets from the Ubuntu HTML5 Theme need this element to set a background image. Here is a code snippet which displays a checkbox:
 
 ```html
@@ -45,7 +45,8 @@ With Ubuntu HTML5 Theme, this HTML markup looks like this (from left to right: c
 
 Checkboxes have no predefined Javascript methods in Ubuntu HTML5. Accessing the state of the checkbox - checked or not checked - must be done with regular Javascript DOM-methods instead:
 
-<pre>
+
+```html
 <label>
   <input id="checkbox" type="checkbox" checked="disabled" />
 </label>
@@ -55,14 +56,14 @@ document.getElementById("checkbox").onclick = function(){
   checkBoxState = !checkBoxState;
 }
 </script>
-</pre>
+```
 
 
 <h2>Switches</h2>
 
 Switches behave like checkboxes, they only look different. The following HTML markup declares a switch:
 
-<pre>
+```html
 <label>
   <input type="checkbox" checked="" data-type="switch">
   <span class="toggle">
@@ -70,7 +71,7 @@ Switches behave like checkboxes, they only look different. The following HTML ma
     <span class="toggle-bg"></span>
   </span>
 </label>
-</pre>
+```
 
 Like checkboxes, switches have the attributes "checked" and "disabled":
 [caption id="attachment_839" align="alignnone" width="300"]<a href="http://daniel-beck.org/wp-content/uploads/Switches.png"><img src="http://daniel-beck.org/wp-content/uploads/Switches-300x46.png" alt="Switches" width="300" height="46" class="size-medium wp-image-839" /></a> Switches[/caption]
@@ -80,7 +81,8 @@ Like checkboxes, switches have the attributes "checked" and "disabled":
 Lists are predefined widgets that mostly look like their <a href="http://design.ubuntu.com/apps/building-blocks/list-items">native counterparts</a>. A container is declared as a list by setting the attribute <code>data-role="list"</code>. Lists consist of an <ul> element, containing <li> elements (i.e. list items). 
 
 The following code declares a list consisting of two list items:
-<pre>
+
+```html
 <section data-role="list">
   <ul>
     <li>
@@ -92,14 +94,14 @@ The following code declares a list consisting of two list items:
     </li>
   </ul>
 </section>  
-</pre>
+```
 
 This creates the following user interface:
 [caption id="attachment_862" align="alignnone" width="302"]<a href="http://daniel-beck.org/wp-content/uploads/SimpleList.png"><img src="http://daniel-beck.org/wp-content/uploads/SimpleList.png" alt="A list containing two items" width="302" height="110" class="size-full wp-image-862" /></a> A list containing two items[/caption]
 
 List items can also contain <header>-elements. Ubuntu HTML5 styles them smaller then normal list elements:
 
-<pre>
+```html
 <section data-role="list">
   <header>Header</header>
   <ul>
@@ -108,7 +110,7 @@ List items can also contain <header>-elements. Ubuntu HTML5 styles them smaller 
     </li>
   </ul>
 </section>  
-</pre>
+```
 
 Here is a screenshot of a header element and a "normal" list element:
 [caption id="attachment_844" align="alignnone" width="302"]<a href="http://daniel-beck.org/wp-content/uploads/HeaderWithListItem.png"><img src="http://daniel-beck.org/wp-content/uploads/HeaderWithListItem.png" alt="A list made of a header and a normal list item" width="302" height="92" class="size-full wp-image-844" /></a> A list made of a header and a normal list item[/caption]
@@ -116,7 +118,7 @@ Here is a screenshot of a header element and a "normal" list element:
 
 To give the user the illusion of "progression", list items can be designed to have an arrow on the right side. This is realized by surrounding a list-item with an <a>-element:
 
-<pre>
+```html
 <section data-role="list">
   <header>Header</header>
   <ul>
@@ -127,12 +129,13 @@ To give the user the illusion of "progression", list items can be designed to ha
     </li>
   </ul>
 </section>  
-</pre>
+```
 
  [caption id="attachment_846" align="alignnone" width="302"]<a href="http://daniel-beck.org/wp-content/uploads/ListProgression.png"><img src="http://daniel-beck.org/wp-content/uploads/ListProgression.png" alt="List with a progression item" width="302" height="88" class="size-full wp-image-846" /></a> List with a progression item[/caption]
 
 List items can have an icon on the left side:
-<pre>
+
+```html
 <section data-role="list">
   <header>Header</header>
   <ul>
@@ -144,20 +147,21 @@ List items can have an icon on the left side:
     </li>
   </ul>
 </section>
-</pre>
+```
 
 [caption id="attachment_847" align="alignnone" width="302"]<a href="http://daniel-beck.org/wp-content/uploads/LabelListItem.png"><img src="http://daniel-beck.org/wp-content/uploads/LabelListItem.png" alt="List item with a label" width="302" height="65" class="size-full wp-image-847" /></a> List item with a label[/caption]
 
 However, this <aside> element has a very high z-index. It interfers with other Ubuntu HTML5 components like the toolbar: icons are visible behind the toolbar. There is a <a href="https://bugs.launchpad.net/ubuntu-html5-theme/+bug/1223973">bug report</a> for this.
 Meanwhile, I recommand to overwrite the z-index like that:
-<pre>
+```html
 [data-role="list"] aside {
     z-index: 2;
 }
-</pre>
+```
 
 List items can also contain switches and checkboxes:
-<pre>
+
+```html
 <section data-role="list">
   <header>This is a header</header>
   <ul>
@@ -180,7 +184,7 @@ List items can also contain switches and checkboxes:
     </li>
   </ul>
 </section>
-</pre>
+```
 
 [caption id="attachment_849" align="alignnone" width="302"]<a href="http://daniel-beck.org/wp-content/uploads/CheckboxAndSwithMenuItems.png"><img src="http://daniel-beck.org/wp-content/uploads/CheckboxAndSwithMenuItems.png" alt="Checkbox and switch menu items" width="302" height="117" class="size-full wp-image-849" /></a> Checkbox and switch menu items[/caption]
 
@@ -190,37 +194,36 @@ Ubuntu HTML5 theme delivers a convenient javascript API to access and manipulate
 
 This code adds several list items to an existing list:
 
-<pre>
+```javascript
 UI.list('somelist').append("The"); 
 UI.list('somelist').append("answer"); 
 UI.list('somelist').append("is"); 
 UI.list('somelist').append("42");
-</pre>
+```
 
 
 The following example adds the list item "startwifi" to a list named "actions". When a user clicks on it, a wifi connection is opened by using the provided username and password:
 
-<pre>
+```javascript
 var wifiConfig = {username: "admin", password: "secret"};
 UI.list('actions').append("Start Wifi", null, function(wifiData){
    // start wifi
 }, wifiConfig);
-</pre>
+```
 
 The following methods allow accessing and removing elements from a list:
-<ul>
-<li><code>at(n)</code>: accesses the n-th element of the list. Returns a <li> element</li>
-<li><code>remove(n)</code>: removes the n-th element of the list</li>
-<li><code>removeAllItems()</code>: removes all items of a list</li> 
-</ul>
+
+* <code>at(n)</code>: accesses the n-th element of the list. Returns a <li> element
+* <code>remove(n)</code>: removes the n-th element of the list
+*<code>removeAllItems()</code>: removes all items of a list
 
 Finally, there is also a <code>forEach()</code> method which iterates over all list items and applies a function to them. This could for example be used to assign a CSS class named "odd" to each second item:
 
-<pre>
+```javascript
 UI.list('list').forEach(function(element, index) {
    if(index % 2 === 1)
       element.classList.add("odd");
 });
-</pre>
+```
 
 This closes the description of checkboxes, switches and lists. The next article will look at the toolbar and  popover menus.
