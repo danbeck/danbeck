@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About - Impressum
-permalink: /about/
+permalink: /impressum/
 ---
 
 ### More Information
