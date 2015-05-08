@@ -8,9 +8,10 @@ categories: Ubuntu App Showdown
 [caption id="attachment_559" align="alignleft" width="135"]<a href="http://daniel-beck.org/wp-content/uploads/RamSamSam.png"><img class="size-medium wp-image-559" alt="This is the new Icon of RamSamSam Reader" src="http://daniel-beck.org/wp-content/uploads/RamSamSam-300x278.png" width="135" height="127" /></a> This is the new Icon of RamSamSam Reader[/caption]
 
 Lucas Romero Di Benedetto and Sam Hewitt created an icon for RamSamSam Reader. The icon is beautiful, thanks Lucas Romero and Sam!
-<div style="clear:both;">
-</div>
-<h1>A new look and feel</h1>
+
+A new look and feel
+--------------------
+
 RamSamSam also got its own distinctiv layoute. Here are the screenshots comparing the old and the new layout:
 
 Screenshot from the phone layout:
