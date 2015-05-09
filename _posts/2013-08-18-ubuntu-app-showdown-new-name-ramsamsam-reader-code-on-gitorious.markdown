@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ubuntu App Showdown: New name: _RamSamSam Reader_"
+title:  "Ubuntu App Showdown: New name: RamSamSam Reader"
 date:   2013-08-18 16:29:00
 categories: Ubuntu App Showdown
 ---
