@@ -6,7 +6,7 @@ layout: default
 	<div>My Opensource projects:</div>
 	<div class="project">
 		<div>
-			<img="/images/PhysalisMainPage.png">
+			<img="{{ site.baseurl }}/images/PhysalisMainPage.png">
 			 <span>Physalis Build Cloud:</span> <span>Physalis
 				Build Cloud:</span>
 		</div>
@@ -27,7 +27,7 @@ layout: default
        <div class="entry">
         {{ post.excerpt }}
 
-	     <a href="{{ site.baseurl }}{{ post.url }}" >Read More</a>
+	     <a href="{{ site.baseurl }}{{ post.url }}" >Continue reading</a>
       </div>
 
     </article>
@@ -37,7 +37,7 @@ layout: default
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    <a href="{{ paginator.previous_page_path }}" class="previous">Read older posts</a>
   {% else %}
     <span class="previous">Previous</span>
   {% endif %}
