@@ -302,17 +302,25 @@ footer {
 
 
 // Daniels
-.myprojects {
 	
-	 .project.even {
-		margin-left:370px;
-		width: 320px;
-	}
-	.project.odd {
-		margin-right:20px;
-		float:left;
-		width: 320px;
-	}
+.project.even {
+	margin-left:370px;
+	width: 320px;
+}
+.project.odd {
+	margin-right:20px;
+	float:left;
+	width: 320px;
+}
+
+.myprojects {
+	width: 100%;
+	background-color: #272822;
+	color: white;
+}
+
+.myprojects h2 {
+	color: white;
 }
 
 .clear{
