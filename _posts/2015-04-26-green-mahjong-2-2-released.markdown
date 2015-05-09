@@ -8,7 +8,7 @@ categories: Green Mahjong
 This new release of Green Mahjong is very exciting: we worked very hard at porting Green Mahjong on many more platforms.
 
  
-Until now, Green Mahjong was available on _Ubuntu touch_, _FirefoxOS__, _Firefox_ and _Chrome_. With release 2.2, we added
+Until now, Green Mahjong was available on _Ubuntu touch_, _FirefoxOS_, _Firefox_ and _Chrome_. With release 2.2, we added
 the following platforms:
 
 - Android: [Green Mahjong][LinkToGooglePlay]
