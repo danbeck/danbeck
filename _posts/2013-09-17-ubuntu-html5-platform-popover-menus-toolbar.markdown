@@ -6,6 +6,7 @@ categories: Ubuntu HTML5
 ---
 
 This is the next article from the series about the <a href="http://daniel-beck.org/category/ubuntu-html5/">Ubuntu HTML5 platform</a>. This time, we focus on popover menus and on the toolbar.
+
 Popover menu
 ------------
 
