@@ -5,7 +5,7 @@ date:   2014-10-23 20:14:00
 categories: Green Mahjong
 ---
 
-This new release of Green Mahjong is very exciting: we worked very hard at porting Green Mahjong on many more platforms.
+This new release of Green Mahjong is very exciting: we worked hard at porting Green Mahjong on many more platforms.
 
  
 Until now, Green Mahjong was available on _Ubuntu touch_, _FirefoxOS_, _Firefox_ and _Chrome_. With release 2.2, we added
@@ -21,7 +21,7 @@ Here is the full changelog:
 - support for browser back
 - new toolbar button for switching themes
 - removed a bug which made tiles not selectable under the toolbar.
-- made the game working on android, iphone and jolla.
+- Added _Android_, _iPhone_ and _Jolla_ to the list of supported platforms.
 
 
 [LinkToGooglePlay]: https://play.google.com/store/apps/details?id=de.beck.greenmahjong
