@@ -57,7 +57,7 @@ In particular, version 2.1 hast the following optimizations:
  * hints are realized with sprites instead of CSS filter
 
 
-The game can be played in the browser, too: [Green Mahjong][PlayGameInBrowser].
+The game can be played in the browser, too: [Play Green Mahjong in the webbrowser!][PlayGameInBrowser].
 
 Have fun and review us in your favorite app store if you like the game!
 
