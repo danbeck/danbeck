@@ -9,15 +9,15 @@ Green Mahjong 2.1 includes many improvements.
 New layouts
 -----------
 
-We added two board layouts: "bug" and "four hills". Here is a screenshot:
+We added two board layouts: "bug" and "four hills":
 
 ![Greenmahjong: new themes]({{ site.baseurl }}/images/layouts_big.png)
 
 
-<strong>New: a point and achievement system with game statistics:</strong>
-Green Mahjong 2.1 introduces points. Solving a board gives you a bonus. There is also a time bonus for solving a game under 8 minutes. 
+<strong>Game statistics, points and achievement system</strong>
+Green Mahjong 2.1 introduces points. Solving a board gives you a bonus. There is also a
+time bonus for solving a game under 8 minutes:
 
-Achievements and statistics are persisted and can be shown to the player:
 
 ![Greenmahjong: game statistics]({{ site.baseurl }}/images/Bildschirmfoto-am-2014-08-07-um-21.13.37.png)
 
