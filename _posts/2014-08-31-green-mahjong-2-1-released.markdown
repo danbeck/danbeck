@@ -46,13 +46,21 @@ IMO, the result looks much better and can be discerned more clearly:
 ![Greenmahjong hints: before/after]({{ site.baseurl }}/images/hints.png)
 
 
-<strong>Many speed improvements on old devices</strong>
+Many speed improvements on old devices
+--------------------------------------
 
- * much less dom manipulation
+Last but not least, we improved the speed of the game which should preserve battery life:
+
+In particular, version 2.1 hast the following optimizations:
+
+ * much less dom manipulations
  * hints are realized with sprites instead of CSS filter
 
-The game can be played in the browser, too: <a href="http://greenmahjong.daniel-beck.org"><strong>Green Mahjong</strong></a>
 
-Have fun! 
-Give us a review in your favorite app store if you like the game!
+The game can be played in the browser, too: [Green Mahjong][PlayGameInBrowser].
 
+Have fun and review us in your favorite app store if you like the game!
+
+
+
+[PlayGameInBrowser]: https://play.google.com/store/apps/details?id=de.beck.greenmahjong
