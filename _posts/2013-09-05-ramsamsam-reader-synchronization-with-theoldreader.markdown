@@ -17,16 +17,11 @@ Lucas Romero Di Benedetto and Sam Hewitt created an icon for RamSamSam Reader. T
 A new look and feel
 --------------------
 
-RamSamSam also got its own distinctiv layoute. Here are the screenshots comparing the old and the new layout:
+I updated the general look of RamSamSam Reader. Here are the screenshots comparing the old and the new layout:
 
-Screenshot from the phone layout:
-<table border="0">
-<tbody>
-<tr>
-<th>
 
-[caption id="attachment_596" align="alignnone" width="188"]<a href="http://daniel-beck.org/wp-content/uploads/RamSamSam_OldThemeMobileSubscriptions.png"><img class="size-medium wp-image-596" alt="The subscriptions list. Old Look and Feel:" src="http://daniel-beck.org/wp-content/uploads/RamSamSam_OldThemeMobileSubscriptions-188x300.png" width="188" height="300" /></a> The subscriptions list. Old Look and Feel.[/caption]</th>
-<th>
+![Old layout(phone)]({{ site.baseurl }}/images/RamSamSam_OldThemeMobileSubscriptions-188x300.png)
+![New layout(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptions-188x300.png)
 
 [caption id="attachment_597" align="alignnone" width="188"]<a href="http://daniel-beck.org/wp-content/uploads/RamSamSam_NewThemeMobileSubscriptions.png"><img class="size-medium wp-image-597" alt="The subscriptions list. New Look and Feel:" src="http://daniel-beck.org/wp-content/uploads/RamSamSam_NewThemeMobileSubscriptions-188x300.png" width="188" height="300" /></a> The subscriptions list. New Look and Feel.[/caption]</th>
 </tr>
