@@ -24,7 +24,6 @@ OldLayout: ![Old layout(phone)]({{ site.baseurl }}/images/RamSamSam_OldThemeMobi
 New layout: [New layout(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptions-188x300.png)
 
 Taa: ![New layout(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptions-188x300.png)
-
 HEre to: ![New layout(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptions-188x300.png)
 
 [caption id="attachment_597" align="alignnone" width="188"]<a href="http://daniel-beck.org/wp-content/uploads/RamSamSam_NewThemeMobileSubscriptions.png"><img class="size-medium wp-image-597" alt="The subscriptions list. New Look and Feel:" src="http://daniel-beck.org/wp-content/uploads/RamSamSam_NewThemeMobileSubscriptions-188x300.png" width="188" height="300" /></a> The subscriptions list. New Look and Feel.[/caption]</th>
