@@ -6,8 +6,8 @@ categories: Play Framework
 ---
 
 One niceties of the Play Framework is how easy it is do deploy an application. No
-application server must be deployed, no configuration file must be configured! Play 
-offers _two_ easy way to deploy an application: as a fat zip file or as a docker container. 
+application server must be deployed, no configuration file must be configured! 
+This posts shows _two_  ways to deploy: as a fat zip file or as a docker container. 
 
 Create a fat zip file:
 ------------------------
