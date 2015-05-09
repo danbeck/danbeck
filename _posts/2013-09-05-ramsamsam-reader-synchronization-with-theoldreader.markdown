@@ -19,44 +19,20 @@ A new look and feel
 
 I updated the general look of RamSamSam Reader. Here are the screenshots comparing the old and the new layout.
 
+* Subscription lists
 
-OldLayout: ![Old layout(phone)]({{ site.baseurl }}/images/RamSamSam_OldThemeMobileSubscriptions-188x300.png)
-New layout: [New layout(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptions-188x300.png)
+![Old layout(phone)]({{ site.baseurl }}/images/RamSamSam_OldThemeMobileSubscriptions-188x300.png)
+![New layout(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptions-188x300.png)
 
-Taa: ![New layout(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptions-188x300.png)
-HEre to: ![New layout(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptions-188x300.png)
+* Subscription lists
 
-[caption id="attachment_597" align="alignnone" width="188"]<a href="http://daniel-beck.org/wp-content/uploads/RamSamSam_NewThemeMobileSubscriptions.png"><img class="size-medium wp-image-597" alt="The subscriptions list. New Look and Feel:" src="http://daniel-beck.org/wp-content/uploads/RamSamSam_NewThemeMobileSubscriptions-188x300.png" width="188" height="300" /></a> The subscriptions list. New Look and Feel.[/caption]</th>
-</tr>
-</tbody>
-</table>
+![Old layout - subcription items(phone)]({{ site.baseurl }}/images/RamSamSam_OldThemeMobileSubscriptionItems-188x300.png)
+![New layout - subcription items(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptionItems.png)
 
-<table border="0">
-<tbody>
-<tr>
-<th>
+* Desktop layout:
 
-[caption id="attachment_598" align="alignnone" width="188"]<a href="http://daniel-beck.org/wp-content/uploads/RamSamSam_OldThemeMobileSubscriptionItems.png"><img class="size-medium wp-image-598" alt="The subscription items. Old Look and Feel:" src="http://daniel-beck.org/wp-content/uploads/RamSamSam_OldThemeMobileSubscriptionItems-188x300.png" width="188" height="300" /></a> The subscription items. Old Look and Feel.[/caption]</th>
-<th>
+![Old layout - desktop]({{ site.baseurl }}/images/RamSamSam_OldTheme-300x243.png)
+![Old layout - desktop]({{ site.baseurl }}/RamSamSam_NewTheme-300x243.png)
 
-[caption id="attachment_599" align="alignnone" width="188"]<a href="http://daniel-beck.org/wp-content/uploads/RamSamSam_NewThemeMobileSubscriptionItems.png"><img class="size-medium wp-image-599" alt="The subscription items. New Look and Feel." src="http://daniel-beck.org/wp-content/uploads/RamSamSam_NewThemeMobileSubscriptionItems-188x300.png" width="188" height="300" /></a> The subscription items. New Look and Feel.[/caption]</th>
-</tr>
-</tbody>
-</table>
-
-Screenshots from the tablet layout:
-<table border="0">
-<tbody>
-<tr>
-<th>
-
-[caption id="attachment_594" align="alignnone" width="300"]<a href="http://daniel-beck.org/wp-content/uploads/RamSamSam_OldTheme.png"><img class="size-medium wp-image-594" alt="This is the old Look and Feel" src="http://daniel-beck.org/wp-content/uploads/RamSamSam_OldTheme-300x243.png" width="300" height="243" /></a> This is the old Look and Feel[/caption]</th>
-<th>
-
-[caption id="attachment_595" align="alignnone" width="300"]<a href="http://daniel-beck.org/wp-content/uploads/RamSamSam_NewTheme.png"><img class="size-medium wp-image-595" alt="And this is the new Look and Feel" src="http://daniel-beck.org/wp-content/uploads/RamSamSam_NewTheme-300x243.png" width="300" height="243" /></a> And this is the new Look and Feel[/caption]</th>
-</tr>
-</tbody>
-</table>
-
-This new layout can be tried online  <a href="http://daniel-beck.org/rss">here</a>.
+It's possible to try out _RamSamSam reader_ here:  <a href="http://daniel-beck.org/rss">here</a>.
 What are your opinions on the new Look and Feel? Do you have any suggestions for it?
