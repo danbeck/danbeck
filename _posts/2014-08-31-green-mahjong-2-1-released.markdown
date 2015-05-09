@@ -4,7 +4,8 @@ title:  Green Mahjong 2.1 released!
 date:   2014-08-31 07:52:00
 categories: Green Mahjong
 ---
-Green Mahjong 2.1 includes many improvements. 
+Green Mahjong 2.1 was released. This release brings  many improvements: a point and achievement system, better usability
+thanks to an improved  menu UI and many speed improvements. Read the details below!
 
 New layouts
 -----------
@@ -63,4 +64,4 @@ Have fun and review us in your favorite app store if you like the game!
 
 
 
-[PlayGameInBrowser]: https://play.google.com/store/apps/details?id=de.beck.greenmahjong
+[PlayGameInBrowser]: https://play.google.com/store/apps/details?idde.beck.greenmahjong
