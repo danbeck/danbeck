@@ -80,7 +80,7 @@ Here are some examples to show the individual input types:
 </div>
 <div class="inset">
   <input type="text" disabled="" placeholder="disabled text field">
-</div<
+</div>
 <div class="inset">
   <input type="tel" placeholder="telephone field">
 </div>
