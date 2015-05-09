@@ -26,13 +26,13 @@ I updated the general look of RamSamSam Reader. Here are the screenshots compari
 
 * Subscription lists
 
-![Old layout - subcription items(phone)]({{ site.baseurl }}/images/RamSamSam_OldThemeMobileSubscriptionItems-188x300.png)
-![New layout - subcription items(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptionItems.png)
+![Old layout subcription items(phone)]({{ site.baseurl }}/images/RamSamSam_OldThemeMobileSubscriptionItems-188x300.png)
+![New layout subcription items(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptionItems.png)
 
-* Desktop layout:
+* Desktop layout
 
-![Old layout - desktop]({{ site.baseurl }}/images/RamSamSam_OldTheme-300x243.png)
-![Old layout - desktop]({{ site.baseurl }}/RamSamSam_NewTheme-300x243.png)
+![Old layout desktop]({{ site.baseurl }}/images/RamSamSam_OldTheme-300x243.png)
+![New layout desktop]({{ site.baseurl }}/RamSamSam_NewTheme-300x243.png)
 
 It's possible to try out _RamSamSam reader_ here:  <a href="http://daniel-beck.org/rss">here</a>.
 What are your opinions on the new Look and Feel? Do you have any suggestions for it?
