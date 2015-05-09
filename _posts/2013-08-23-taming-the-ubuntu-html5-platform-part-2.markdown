@@ -4,8 +4,6 @@ title:  "Ubuntu HTML5 platform: pagestack, pages and the back-button"
 date:   2013-08-28 09:49:00
 categories: Ubuntu HTML5
 ---
-Intoduction
-------------
 
 In the <a href="taming-the-ubuntu-html5-platform-part1/">first part</a>, I gave an overview over Apache Cordova and the Ubuntu HTML5 Theme.
 
