@@ -14,19 +14,34 @@ We added two board layouts: "bug" and "four hills":
 ![Greenmahjong: new themes]({{ site.baseurl }}/images/layouts_big.png)
 
 
-<strong>Game statistics, points and achievement system</strong>
+Game statistics, points and achievement system
+----------------------------------------------
+
 Green Mahjong 2.1 introduces points. Solving a board gives you a bonus. There is also a
-time bonus for solving a game under 8 minutes:
+time bonus for solving a game under 8 minutes. Points and achievements are shown at the 
+end of a game:
 
 
 ![Greenmahjong: game statistics]({{ site.baseurl }}/images/Bildschirmfoto-am-2014-08-07-um-21.13.37.png)
 
-<strong>New menu</strong>
-The old menu appeared and disappeared when the player touched the background. This was suboptimal because 1) new gamers would not discover the menu immediately 2) it sometimes gets in the way while playing. Green Mahjong 2.1 implemenents a new game menu which is much more userfriendly and still doesn't cost much screen estate: 
+New menu
+---------
+The old menu appeared and disappeared when the player touched the background. This maximized the available screen estate, 
+which is a nice thing since there is not a lot of space available on a phone. However, sometimes it also got in the way while 
+playing. 
+
+The new game menu is much more userfriendly and still doesn't cost much screen estate: 
+
+![Greenmahjong hints: before/after]({{ site.baseurl }}/images/newMenu.png)
+            
+            
+Improved visuals: hints
+------------------------
 
 
-<strong>Improved visuals: hints</strong>
-The hint function is now much faster on slower devices and even looks much better. In the preceding version, we used CSS filters to grey out the blocked tiles - version 2.1 uses hand tuned sprites. The result looks much better:
+The improved hint function is much faster on slower devices. It also looks better.
+In the preceding version, we used CSS filters to grey out the blocked tiles. We now hand created grey tiles.
+IMO, the result looks much better and can be discerned more clearly:
 
 ![Greenmahjong hints: before/after]({{ site.baseurl }}/images/hints.png)
 
