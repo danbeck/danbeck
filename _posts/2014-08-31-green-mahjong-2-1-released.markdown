@@ -6,7 +6,9 @@ categories: Green Mahjong
 ---
 Green Mahjong 2.1 includes many improvements. 
 
-<strong>Two new layouts:</strong>
+New layouts
+-----------
+
 We added two board layouts: "bug" and "four hills". Here is a screenshot:
 
 ![Greenmahjong: new themes]({{ site.baseurl }}/images/layouts_big.png)
