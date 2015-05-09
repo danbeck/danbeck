@@ -6,6 +6,12 @@ categories: Ubuntu HTML5
 ---
 Hi developers of HTML5 apps! 
 
-In 2013, I created an unofficial API reference documentation for the Ubuntu HTML5 Theme. This API reference is outdated now and many example may not run anymore. Additionaly, a officila Ubuntu HTML5 documentation exists now.
+In 2013, no good documentation was available for Ubuntu HTML5. Therefore, I created an 
+unofficial "API reference"-like documentation which is quite outdated today. 
+Fortunately, Canonical created a very nice [Ubuntu HTML5 API Documentation] [UbuntuHTML5API].
 
-The link is still available here for historic purporses: <a href="http://daniel-beck.org/ubuntu-html5-theme/">API documentation</a>.
+The link to my own documentation effort is available here. [(Outdated) Ubuntu API documentation][MyUbuntuHTML5API].
+
+[UbuntuHTML5API]: https://developer.ubuntu.com/en/apps/html-5/api/
+
+[MyUbuntuHTML5API]:http://daniel-beck.org/ubuntu-html5-theme/
