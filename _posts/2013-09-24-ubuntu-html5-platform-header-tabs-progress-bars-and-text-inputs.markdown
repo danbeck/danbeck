@@ -73,7 +73,8 @@ HTML5 brings new input types like "number", "url", "email", etc. These new input
 * The input can be validated by the browser before submitting a form to a server. E.g. the type "email" will show an error when the user tries to submit an email address without a "@"-character.
  
 Here are some examples to show the individual input types: 
-<pre>
+
+```html
 <div class="inset">
   <input type="text" placeholder="simple text field">
 </div>
@@ -98,24 +99,26 @@ Here are some examples to show the individual input types:
 <div class="inset">
   <textarea placeholder="the placeholder text is a text which is displayed when there is no content in the TextArea"></textarea>
 </div>
-</pre>
+```
 
 This code can be tried online: <a href="http://jsbin.com/evAMIvi/1/edit">JS Bin - Inputs types</a>.
 
 No UI methods are needed to access the values of these input fields, <code>document.getElementById("elementid").value</code> suffices.
 
 
-<h2>Shapes</h2>
+Shapes
+------------
+
 Shapes are "decorators" to make elements like images look as follows:
 [caption id="attachment_1216" align="alignnone" width="106"]<a href="http://daniel-beck.org/wp-content/uploads/UbuntuShape.png"><img src="http://daniel-beck.org/wp-content/uploads/UbuntuShape.png" alt="Ubuntu Shape" width="106" height="109" class="size-full wp-image-1216" /></a> Ubuntu Shape[/caption]
 
 Using them is simple:
 
-<pre>
+```html
 <div data-role="shape">
   <img src="http://cordova.apache.org/images/cordova_bot.png">
 </div>
-</pre>
+```
 
 Since Shapes are created by using images, setting height and width might make them look bad. 
 
@@ -124,6 +127,7 @@ The example can be tried online here: <a href="http://jsbin.com/oPUpuMo/1/edit">
 
 The next article will focus on the storage options "localstorage", "WebSQL", and "IndexedDB".
 
+```html
 <header data-role="header">
   <nav class="tabs" data-role="navbar">
     <div class="tabs-inner">
@@ -139,7 +143,7 @@ The next article will focus on the storage options "localstorage", "WebSQL", and
   </nav>
 </header>
 
-</pre>
+```
 
 And here is a screenshot of such a header UI element:
 
@@ -147,16 +151,17 @@ And here is a screenshot of such a header UI element:
 
 There is no predefined UI method to bind a callback function to a tab, yet. So, I created a small example to show how to switch pages when the user clicks on a tab:  <a href="http://jsbin.com/IBeniXo/2/edit">JS Bin - Header and tabs</a>. 
 
-<h2>Progress bars</h2>
+Progress bars
+------------
+
 Progress bars are new HTML5 elements. Ubuntu HTML5 comes with CSS styling instructions to style them.
 
 Declaring progress bars is made as follows:
 
-<pre>
+```html
 <progress></progress>
 <progress class="bigger"></progress>
-</pre>
-
+```
 Here is a link to try out progress bars on JS Bin: <a href="http://jsbin.com/UlAtiSO/3/edit">JS Bin - Progress bars</a>
 
 Progress bars with attributes like <code>"value"</code> or <code>"max"</code> are not styled yet (as of Ubuntu HTML5 Theme version 0.1). Here is an example that will NOT be styled correctly:
