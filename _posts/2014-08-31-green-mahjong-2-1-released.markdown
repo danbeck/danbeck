@@ -30,7 +30,7 @@ The old menu appeared and disappeared when the player touched the background. Th
 which is a nice thing since there is not a lot of space available on a phone. However, sometimes it also got in the way while 
 playing. 
 
-The new game menu is much more userfriendly and still doesn't cost much screen estate: 
+The new game menu is much more userfriendly and doesn't cost much more screen estate: 
 
 ![Greenmahjong hints: before/after]({{ site.baseurl }}/images/newMenu.png)
             
