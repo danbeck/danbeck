@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ubuntu App Showdown: Name suggestions for the  RSS Feed application"
+title:  "Ubuntu App Showdown: New name: _RamSamSam Reader_"
 date:   2013-08-18 16:29:00
 categories: Ubuntu App Showdown
 ---
