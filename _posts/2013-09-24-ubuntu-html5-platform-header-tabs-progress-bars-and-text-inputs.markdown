@@ -44,29 +44,33 @@ And here is a screenshot of such a header UI element:
 
 There is no predefined UI method to bind a callback function to a tab, yet. So, I created a small example to show how to switch pages when the user clicks on a tab:  <a href="http://jsbin.com/IBeniXo/2/edit">JS Bin - Header and tabs</a>. 
 
-<h2>Progress bars</h2>
+Progress bars
+---------------
+
 Progress bars are new HTML5 elements. Ubuntu HTML5 comes with CSS styling instructions to style them.
 
 Declaring progress bars is made as follows:
 
-<pre>
+```html
 <progress></progress>
 <progress class="bigger"></progress>
-</pre>
+```
 
 Here is a link to try out progress bars on JS Bin: <a href="http://jsbin.com/UlAtiSO/3/edit">JS Bin - Progress bars</a>
 
 Progress bars with attributes like <code>"value"</code> or <code>"max"</code> are not styled yet (as of Ubuntu HTML5 Theme version 0.1). Here is an example that will NOT be styled correctly:
-<pre>
-<progress max="100" value="80"></progress>
-</pre>
 
-<h2>Text inputs</h2>
+```html
+<progress max="100" value="80"></progress>
+```
+
+Text inputs
+--------------
 HTML5 brings new input types like "number", "url", "email", etc. These new input types have several advantages: 
-<ul>
-<li>Different on screen-keyboards might be used. For example, "numbers" might be entered with a numeric keyboard.</li>
-<li>The input can be validated by the browser before submitting a form to a server. E.g. the type "email" will show an error when the user tries to submit an email address without a "@"-character.</li>
-</ul>
+
+
+* Different on screen-keyboards might be used. For example, "numbers" might be entered with a numeric keyboard.
+* The input can be validated by the browser before submitting a form to a server. E.g. the type "email" will show an error when the user tries to submit an email address without a "@"-character.
  
 Here are some examples to show the individual input types: 
 <pre>
