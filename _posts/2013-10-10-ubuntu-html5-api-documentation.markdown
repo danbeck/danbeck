@@ -10,7 +10,7 @@ In 2013, no good documentation was available for Ubuntu HTML5. Therefore, I crea
 unofficial "API reference"-like documentation which is quite outdated today. 
 Fortunately, Canonical created a very nice [Ubuntu HTML5 API Documentation] [UbuntuHTML5API].
 
-The link to my own documentation effort is available here. [(Outdated) Ubuntu API documentation][MyUbuntuHTML5API].
+The link to my own documentation effort is available here: [(Outdated) Ubuntu API documentation][MyUbuntuHTML5API].
 
 [UbuntuHTML5API]: https://developer.ubuntu.com/en/apps/html-5/api/
 
