@@ -10,7 +10,7 @@ thanks to an improved  menu UI and many speed improvements. Read the details bel
 New layouts
 -----------
 
-We added two board layouts: "bug" and "four hills":
+We added two board layouts: bug_ and _four hills_:
 
 ![Greenmahjong: new themes]({{ site.baseurl }}/images/layouts_big.png)
 
