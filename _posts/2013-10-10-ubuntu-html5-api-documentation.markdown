@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ubuntu HTML5 platform: Storage"
+title:  "Ubuntu HTML5 API documentation"
 date:   2013-10-10 21:03:00
 categories: Ubuntu HTML5
 ---
