@@ -4,17 +4,21 @@ title:  "Ubuntu HTML5 platform: pagestack, pages and the back-button"
 date:   2013-08-28 09:49:00
 categories: Ubuntu HTML5
 ---
-<h1>Intoduction</h1>
+Intoduction
+------------
+
 In the <a href="taming-the-ubuntu-html5-platform-part1/">first part</a>, I gave an overview over Apache Cordova and the Ubuntu HTML5 Theme.
 
 In this part, I introduce some fundamental concepts of the Ubuntu HTML5 Theme. I also show its most fundamental widgets: "pagestacks", "page" and the "back-button".
 <h1>Styling HTML5 elements</h1>
 Ubuntu HTML5 Widgets are regular HTML5 elements (like &lt;li&gt;, &lt;button&gt;, &lt;a&gt;, &lt;header&gt;,...) which are styled by assigning them predefined CSS classes and "data-role" attributes.
 
+```html
 <div class="box">
 <h2>New in HTML5: custom-data-attributes</h2>
 <p>The "data-role" attribute is a <a href="http://www.w3.org/TR/2011/WD-html5-20110525/elements.html#embedding-custom-non-visible-data-with-the-data-attributes">custom data attribute</a>, a W3C Working draft. Custom data attributes hold metadata and begin with "data-*". They can simplify javascript code. For example, <code>&lt;button data-number-of-clicks="3"/&gt;</code> stores the number of times clicked on that button. Before HTML5, this was often realized with the attributes "rel" or "classnames".</p>
 </div>
+```
 
 As a rule of thumb, if a Ubuntu HTML5 widget has no associated behavior, it only uses CSS classes. For example, the widget "toggle" styles an inline-element like "&lt;span&gt;" to look like a toggle. If it has some javascript behavior, it uses a "data-role" attribute.
 
