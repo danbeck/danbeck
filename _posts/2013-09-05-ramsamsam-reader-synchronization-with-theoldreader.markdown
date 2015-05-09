@@ -4,9 +4,12 @@ title:  "RamSamSam Reader: Synchronization with theOldReader"
 date:   2013-09-05 17:25:00
 categories: Ubuntu App Showdown
 ---
-[caption id="attachment_668" align="alignleft" width="180"]<a href="http://daniel-beck.org/wp-content/uploads/logo-landing.png"><img class="size-full wp-image-668" alt="theOldReader" src="http://daniel-beck.org/wp-content/uploads/logo-landing.png" width="180" height="145" /></a> theOldReader[/caption]
 
-RamSamSam Reader can now connect and synchronize with <a href="http://theoldreader.com/">theOldReader</a>. In detail, the following data are synchronized:
+RamSamSam Reader can now connect and synchronize with <a href="http://theoldreader.com/">theOldReader</a>!
+
+![The Old Reader]({{ site.baseurl }}/images/logo-landing.png)
+
+In detail, the following data are synchronized:
 
 - User Login
 - Subscriptions
