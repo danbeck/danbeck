@@ -21,7 +21,7 @@ I updated the general look of RamSamSam Reader. Here are the screenshots compari
 
 
 OldLayout: ![Old layout(phone)]({{ site.baseurl }}/images/RamSamSam_OldThemeMobileSubscriptions-188x300.png)
-New layout: ![New layout(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptions-188x300.png)
+New layout: [New layout(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptions-188x300.png)
 
 Taa: ![New layout(phone)]({{ site.baseurl }}/images/RamSamSam_NewThemeMobileSubscriptions-188x300.png)
 
