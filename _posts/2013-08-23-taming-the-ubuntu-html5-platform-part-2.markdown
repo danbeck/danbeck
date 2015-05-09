@@ -9,16 +9,13 @@ Intoduction
 
 In the <a href="taming-the-ubuntu-html5-platform-part1/">first part</a>, I gave an overview over Apache Cordova and the Ubuntu HTML5 Theme.
 
-In this part, I introduce some fundamental concepts of the Ubuntu HTML5 Theme. I also show its most fundamental widgets: "pagestacks", "page" and the "back-button".
-<h1>Styling HTML5 elements</h1>
-Ubuntu HTML5 Widgets are regular HTML5 elements (like &lt;li&gt;, &lt;button&gt;, &lt;a&gt;, &lt;header&gt;,...) which are styled by assigning them predefined CSS classes and "data-role" attributes.
+In this part, I introduce some fundamental concepts of the Ubuntu HTML5 Theme. I also show its most fundamental widgets: _pagestacks_, _page_ and the _back-button_.
 
-```html
-<div class="box">
-<h2>New in HTML5: custom-data-attributes</h2>
-<p>The "data-role" attribute is a <a href="http://www.w3.org/TR/2011/WD-html5-20110525/elements.html#embedding-custom-non-visible-data-with-the-data-attributes">custom data attribute</a>, a W3C Working draft. Custom data attributes hold metadata and begin with "data-*". They can simplify javascript code. For example, <code>&lt;button data-number-of-clicks="3"/&gt;</code> stores the number of times clicked on that button. Before HTML5, this was often realized with the attributes "rel" or "classnames".</p>
-</div>
-```
+Styling HTML5 elements
+---------------------
+
+Ubuntu HTML5 Widgets are regular HTML5 elements which are styled by assigning them predefined CSS classes with _data-role_ attributes.
+The "data-role" attribute is a <a href="http://www.w3.org/TR/2011/WD-html5-20110525/elements.html#embedding-custom-non-visible-data-with-the-data-attributes">custom data attribute</a>, a W3C Working draft. Custom data attributes hold metadata and begin with "data-*". They can simplify javascript code. For example, <code>&lt;button data-number-of-clicks="3"/&gt;</code> stores the number of times clicked on that button. Before HTML5, this was often realized with the attributes "rel" or "classnames".</p>
 
 As a rule of thumb, if a Ubuntu HTML5 widget has no associated behavior, it only uses CSS classes. For example, the widget "toggle" styles an inline-element like "&lt;span&gt;" to look like a toggle. If it has some javascript behavior, it uses a "data-role" attribute.
 
@@ -74,7 +71,8 @@ button2.addEventListener("click", function() {
 
 <h1 id="backbutton">The backbutton</h1>
 Another, really useful feature of the Ubuntu HTML5 theme is the "back-button". This button gets automatically added to the toolbar at the bottom of the screen:
-[caption id="attachment_726" align="alignnone" width="300"]<a href="http://daniel-beck.org/wp-content/uploads/Backbutton.png"><img src="http://daniel-beck.org/wp-content/uploads/Backbutton-300x37.png" alt="The back-button" width="300" height="37" class="size-medium wp-image-726" /></a> The back-button[/caption]
+
+![The back button]({{ site.baseurl }}/images/Backbutton-300x37.png)
 
 To realize the functionality to go backward to a previous page, the Ubuntu HTML5 Theme maintains a stack of "pages", named the <code>Pagestack</code>.
 
