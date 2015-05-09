@@ -5,9 +5,9 @@ date:   2013-08-18 16:29:00
 categories: Ubuntu App Showdown
 ---
 
-The RSS Reader app got several suggestions. I want to thank everyone.
+The RSS Reader app got several suggestions. I want to thank everyone. The new name of the app is _RamSamSam Reader_ .
 
-The new name of the RSS Feed Reader will be: "RamSamSam Reader". <a title="Ram Sam Sam" href="http://en.wikipedia.org/wiki/A_Ram_Sam_Sam">Ram Sam Sam</a> is a popular children song originated from marocco. 
+<a title="Ram Sam Sam" href="http://en.wikipedia.org/wiki/A_Ram_Sam_Sam">Ram Sam Sam</a> is a popular children song originated from marocco. 
 Its initials are RSS. Furthermore, my three-years-old son loves this song ;-)
 
 Here now a small update on the progress beeing made:
