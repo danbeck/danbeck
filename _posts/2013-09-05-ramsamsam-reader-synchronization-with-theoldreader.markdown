@@ -5,7 +5,7 @@ date:   2013-09-05 17:25:00
 categories: Ubuntu App Showdown
 ---
 
-RamSamSam Reader can now connect and synchronize with <a href="http://theoldreader.com/">theOldReader</a>!
+RamSamSam Reader can now connect and synchronize RSS feed data with <a href="http://theoldreader.com/">theOldReader</a>!
 
 ![The Old Reader]({{ site.baseurl }}/images/logo-landing.png)
 
