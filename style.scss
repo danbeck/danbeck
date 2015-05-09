@@ -303,6 +303,10 @@ footer {
 
 // Daniels
 .myprojects .project.even {
-	padding:20px;
+	margin-left:370px;
+	float:left;
+}
+.myprojects .project.odd {
+	margin-right:20px;
 	float:left;
 }
