@@ -4,8 +4,11 @@ title:  "Ubuntu HTML5 platform: popover menus and toolbar"
 date:   2013-09-17 19:54:00
 categories: Ubuntu HTML5
 ---
+
 This is the next article from the series about the <a href="http://daniel-beck.org/category/ubuntu-html5/">Ubuntu HTML5 platform</a>. This time, we focus on popover menus and on the toolbar.
-<h1>Popover menu</h1>
+Popover menu
+------------
+
 Popover menus kind of look like speech bubbles. They are "attached" to an element and open next to it. the way they open is controlled by the attribute <code>data-gravity</code>:
 
 * gravity=n</code> (north), i.e. the speech bubbles tail points to the top of the browser viewport

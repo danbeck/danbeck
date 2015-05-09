@@ -6,7 +6,9 @@ categories: Ubuntu HTML5
 ---
 This is one further article about the <a href="http://daniel-beck.org/category/ubuntu-html5/">Ubuntu HTML5 platform</a> and the last article on widgets. We will examine the application header, progress bars, text inputs and ubuntu shapes.
 
-<h2>Header</h2>
+Header
+----------
+
 The <a href="http://design.ubuntu.com/apps/building-blocks/header">header</a> is an UI component which sits on top of an application.  It
 
  * shows the user, where he is 
@@ -19,7 +21,7 @@ To show a header containing several tabs,
 
 Here is explanatory code snippet:
 
-<pre>
+```html
 <header data-role="header">
   <nav class="tabs" data-role="navbar">
     <div class="tabs-inner">
@@ -34,8 +36,7 @@ Here is explanatory code snippet:
     </div>
   </nav>
 </header>
-
-</pre>
+```
 
 And here is a screenshot of such a header UI element:
 
