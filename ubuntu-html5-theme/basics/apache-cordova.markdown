@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "apache Cordova"
+title:  "Apache Cordova"
 date:   2010-07-09 09:03:00
 categories: MySQL
 ---
