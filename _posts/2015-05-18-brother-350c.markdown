@@ -1,0 +1,14 @@
+---
+layout: post
+title:  Brother 350C on ubuntu
+date:   2015-05-18 20:24:00
+categories: ubuntu
+---
+
+Install the following packages to install a Brother DPC 350C printer:
+
+
+```bash
+sudo apt-get install brother-cups-wrapper-extra
+brother-lpr-drivers-extra
+```
