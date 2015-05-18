@@ -4,6 +4,7 @@ title:  Popover
 date:   2010-07-09 09:03:00
 categories: Ubuntu HTML5 theme
 ---
+
 <h2>Overview</h2>
 Popovers are the equivalent of native popover menus. They can be open over, under, on the left or on the right of an element. They look like this:
 <a href="http://daniel-beck.org/wp-content/uploads/FourPopoverMenus.png"><img src="http://daniel-beck.org/wp-content/uploads/FourPopoverMenus.png" alt="FourPopoverMenus" width="583" height="142" class="alignnone size-full wp-image-1122" /></a>
