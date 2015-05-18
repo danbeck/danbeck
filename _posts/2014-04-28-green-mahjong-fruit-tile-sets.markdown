@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Green Mahjong: new tile sets
+title:  "Green Mahjong: new tile sets"
 date:   2014-04-28 21:10:00
 categories: Green Mahjong
 ---

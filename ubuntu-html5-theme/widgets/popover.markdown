@@ -34,7 +34,7 @@ var dialog = UI.popover(document.getElementById('buttonId'), 'dialogId');
 
 <h2>Interface definition</h2>
 
-```javacript
+```javascript
 interface Popover{
   void show();
   void hide();

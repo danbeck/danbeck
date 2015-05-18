@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Ubuntu App Showdown: Green Mahjong
+title:  "Ubuntu App Showdown: Green Mahjong"
 date:   2014-03-12 22:27:00
 categories: Green Mahjong, Ubuntu App Showdown
 ---
