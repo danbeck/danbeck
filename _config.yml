@@ -21,11 +21,11 @@ paginate: 7
 footer-links:
   dribbble:
   email:
-  facebook:
+  facebook: d.danielbeck
   flickr:
   github: danbeck
   instagram:
-  linkedin:
+  linkedin: 41374361
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: ddanieltwitt
@@ -37,7 +37,7 @@ footer-links:
 disqus: disqus_cMC24baCix
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-4099512-3
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
