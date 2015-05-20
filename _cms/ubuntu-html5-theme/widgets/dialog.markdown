@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title:  Dialog
 date:   2010-07-09 09:03:00
 categories: Ubuntu HTML5 theme
