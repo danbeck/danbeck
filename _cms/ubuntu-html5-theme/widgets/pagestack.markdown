@@ -9,7 +9,7 @@ Usually, Ubuntu HTML5 applications have one <code>Pagestack</code>. Pagestack ma
 The <code>pagestack</code> has methods to show and hide pages. Only one page and its toolbar can be displayed at the same time. Each time a page is shown, its global DOM id is added on the stack of pages. The <code>pop</code> method removes a page from the stack and shows the preceding page instead.
 
 
-<code>Pagestack</code> is defined in the file <a href="file:///usr/share/ubuntu-html5-theme/0.1/ambiance/js/core.js">/usr/share/ubuntu-html5-theme/0.1/ambiance/js/pagestacks.js</a>
+_Pagestack_ is defined in the file <a href="file:///usr/share/ubuntu-html5-theme/0.1/ambiance/js/core.js">/usr/share/ubuntu-html5-theme/0.1/ambiance/js/pagestacks.js</a>
 
 <h2>Markup declaration</h2>
 
@@ -54,25 +54,15 @@ interface Pagestack {
 
 <h2>Javascript access method</h2>
 
-<dl>
-<dt>void push(DOMString domId)</dt>
-<dd>displays the page having the global id <code>domId</code> and its associated footer. All other pages are made invisible. Additionally, <code>domId</code> is added on the internal stack of pages maintained by the <code>pagestack</code> object.</dd>
+* _void push(DOMString domId)_. displays the page having the global id <code>domId</code> and its associated footer. All other pages are made invisible. Additionally, <code>domId</code> is added on the internal stack of pages maintained by the <code>pagestack</code> object.
 
-<dt>DOMString pop()</dt>
-<dd>hides the page which is actually shown, and removes it from the top of the internal stack of pages. Instead, the preceding page, which global id is now on the top of the stack, is shown. If the internal stack is empty, nothing happens.
-</dd>
+* _DOMString pop()_. hides the page which is actually shown, and removes it from the top of the internal stack of pages. Instead, the preceding page, which global id is now on the top of the stack, is shown. If the internal stack is empty, nothing happens.
 
-<dt>void clear()</dt>
-<dd>makes all pages invisible and clears the internal stack of pages (used by the <code>push()</code> and and <code>pop()</code> methods).</dd>
+* _void clear()_. makes all pages invisible and clears the internal stack of pages (used by the <code>push()</code> and and <code>pop()</code> methods).
 
-<dt>boolean isEmpty()</dt>
-<dd>returns <code>true</code> if the internal stack of pages is empty. Else, <code>false</code> is returned.
-
-<dt>DOMString currentPage()</dt>
-<dd>returns the global id of the currently displayed page. If no page is displayed (i.e. if the internal stack of pages is empty), <code>null</code> is returned.
-
-<dt>unsigned long depth()</dt>
-<dd>returns the size of the stack of pages.</dd>
+* _boolean isEmpty()_. returns <code>true</code> if the internal stack of pages is empty. Else, <code>false</code> is returned.
 
 
-</dl>
+* _DOMString currentPage()_. returns the global id of the currently displayed page. If no page is displayed (i.e. if the internal stack of pages is empty), <code>null</code> is returned.
+
+* _unsigned long depth()_. returns the size of the stack of pages.

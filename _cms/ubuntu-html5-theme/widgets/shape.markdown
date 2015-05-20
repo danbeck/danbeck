@@ -9,7 +9,8 @@ categories: Ubuntu HTML5 theme
 
 Shapes are “decorators” to make elements like images look as follows:
 
-[caption id="attachment_1216" align="alignnone" width="106"]<a href="http://daniel-beck.org/wp-content/uploads/UbuntuShape.png"><img src="http://daniel-beck.org/wp-content/uploads/UbuntuShape.png" alt="Ubuntu Shape" width="106" height="109" class="size-full wp-image-1216" /></a> Ubuntu Shape[/caption]
+![Ubuntu HTML5 Shape]({{ site.baseurl }}/images/UbuntuShape.png)
+
 
 <h2>Markup declaration</h2>
 Shapes are declared as follows:

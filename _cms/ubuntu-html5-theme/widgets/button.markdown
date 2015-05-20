@@ -32,12 +32,9 @@ interface Button{
 };
 ```
 
-<h2>Method</h2>
+<h2>Methods</h2>
 
-<dl>
-<dt>void click(AsyncOperationCallback callback)</dt>
-<dd>registers a listener for <code>click</code> events. The implementation uses the <a href="http://daniel-beck.org/ubuntu-html5-theme/other-apis/fastbutton/">FastButton</a> class. On devices with touch displays, the <code>click</code> event is emulated and triggered whenever a <code>touchend</code> event occurs within a small timeframe after a <code>touchstart</code> event. This behavior is implemented by the <code>FastButton</code> class and described there. See class: <a href="http://daniel-beck.org/ubuntu-html5-theme/other-apis/fastbutton/">FastButton</a>.</dd>
-</dl>
+* _void click(AsyncOperationCallback callback)_. registers a listener for <code>click</code> events. The implementation uses the <a href="{{ site.baseurl }}/ubuntu-html5-theme/other-apis/fastbutton/">FastButton</a> class. On devices with touch displays, the <code>click</code> event is emulated and triggered whenever a <code>touchend</code> event occurs within a small timeframe after a <code>touchstart</code> event. This behavior is implemented by the <code>FastButton</code> class and described there. See class: <a href="{{ site.baseurl }}/ubuntu-html5-theme/other-apis/fastbutton/">FastButton</a>.
 
 
 The following example registers an event handler for (emulated) click events:
@@ -68,4 +65,5 @@ Here are the CSS classes in action:
 ```
 
 Here is the result of styling the buttons:
-[caption id="attachment_678" align="alignnone" width="423"]<a href="http://daniel-beck.org/wp-content/uploads/buttonsStyles.png"><img src="http://daniel-beck.org/wp-content/uploads/buttonsStyles.png" alt="The different predefined classes for buttons" width="423" height="43" class="size-full wp-image-678" /></a> Predefined classes for buttons[/caption]
+
+![Ubuntu HTML5 header]({{ site.baseurl }}/images/buttonsStyles.png)

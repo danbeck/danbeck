@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MySQL: Creating a user and granting rights"
+title: 	Header
 date:   2010-07-09 09:03:00
 categories: Ubuntu HTML5 theme
 ---
@@ -11,7 +11,8 @@ The <a href="http://design.ubuntu.com/apps/building-blocks/header">header</a> is
 
 Here is a screenshot of such a header UI element:
 
-[caption id="attachment_1215" align="alignnone" width="333"]<a href="http://daniel-beck.org/wp-content/uploads/Header.png"><img src="http://daniel-beck.org/wp-content/uploads/Header.png" alt="Header" width="333" height="71" class="size-full wp-image-1215" /></a> Header[/caption]
+![Ubuntu HTML5 header]({{ site.baseurl }}/images/header.png)
+
 
 <h2>Markup declaration</h2>
 

@@ -6,7 +6,7 @@ categories: Ubuntu HTML5 theme
 ---
 
 <h2>Overview</h2>
-To make text input elements look like their native Ubuntu Touch counterparts, no special CSS classes are needed: the CSS rules directly match the <code>type</code> attribute of <code><input></code> elements.
+To make text input elements look like their native Ubuntu Touch counterparts, no special CSS classes are needed: the CSS rules directly match the attribute _type_ of the_&lt,input&gt;_ elements.
 
 <h2>Markup declaration</h2>
 
@@ -41,4 +41,5 @@ Here is an example that declares text inputs with different input types:
 
 The markup above produces the following in the webbrowser:
 
-[caption id="attachment_1713" align="alignnone" width="208"]<a href="http://daniel-beck.org/wp-content/uploads/TextInputs.png"><img src="http://daniel-beck.org/wp-content/uploads/TextInputs.png" alt="Different inputs" width="208" height="393" class="size-full wp-image-1713" /></a> Different text inputs[/caption]
+![Ubuntu HTML5 Text input]({{ site.baseurl }}/images/TextInputs.png)
+

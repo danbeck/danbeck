@@ -40,7 +40,7 @@ The following example prompts the user for its name:
 </div>
 ```
 
-[caption id="attachment_702" align="alignnone" width="371"]<a href="http://daniel-beck.org/wp-content/uploads/dialogTextInput.png"><img src="http://daniel-beck.org/wp-content/uploads/dialogTextInput.png" alt="Prompt Dialog" width="371" height="197" class="size-full wp-image-702" /></a> Prompt Dialog[/caption]
+![Ubuntu HTML5 dialog with text input]({{ site.baseurl }}/images/dialogTextInput.png)
 
 
 <h2>Javascript Access method</h2>
@@ -67,17 +67,12 @@ interface Dialog{
 
 <h2>Methods</h2>
 
-<dl>
-<dt>void show()</dt>
-<dd>shows the dialog.</dd>
+* _void show()_ . shows the dialog.
 
-<dt>void hide()</dt>
-<dd>hides the dialog.</dd>
+* _void hide()_. hides the dialog.
 
-<dt>void toggle()</dt>
-<dd>shows the dialog if it is hidden, hides if it is shown.</dd>
+* _void toggle()_. shows the dialog if it is hidden, hides if it is shown.
 
-</dl>
 
 Dialogs can be shown and hidden from Javascript as follows:
 
@@ -90,9 +85,7 @@ UI.dialog('dialogId').toggle(); // toggles the state to "displayed" or "hidden"
 
 <h2>Predefined CSS classes</h2>
 
-<ul>
-<li><code>shake</code>: this class is an animation which "shakes" the dialog. Use it for example when the user entered some data which cannot be validated.</li>
-</ul>
+* <code>shake</code>: this class is an animation which "shakes" the dialog. Use it for example when the user entered some data which cannot be validated.
 
 The following example shakes the dialog when the user tries to save an empty name:
 

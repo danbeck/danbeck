@@ -26,4 +26,5 @@ Additionally, the result of the selected value can be shown in an output-field l
 
 Using a slider with an output element looks like this:
 
-<a href="http://daniel-beck.org/wp-content/uploads/slider.png"><img class="size-full wp-image-710" alt="A slider" src="http://daniel-beck.org/wp-content/uploads/slider.png" width="234" height="49" /></a>
+
+![Ubuntu HTML5 Sliders]({{ site.baseurl }}/images/slider.png)

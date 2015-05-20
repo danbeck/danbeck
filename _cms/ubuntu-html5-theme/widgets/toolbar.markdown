@@ -5,14 +5,15 @@ date:   2010-07-09 09:03:00
 categories: Ubuntu HTML5 theme
 ---
 <h2>Overview</h2>
-The toolbar is an UI component which sits at the bottom of an application. It usually contains <a href="http://daniel-beck.org/ubuntu-html5-theme/widgets/button/">buttons</a> that engender an action when clicked.
-The toolbar is generally contained in a <a href="http://daniel-beck.org/ubuntu-html5-theme/widgets/page/">page</a> component or in the <a href="http://daniel-beck.org/ubuntu-html5-theme/widgets/pagestack/">pagestack</a>.
+The toolbar is an UI component which sits at the bottom of an application. It usually contains <a href="{{ site.baseurl }}/ubuntu-html5-theme/widgets/button/">buttons</a> that engender an action when clicked.
+The toolbar is generally contained in a <a href="{{ site.baseurl }}/ubuntu-html5-theme/widgets/page/">page</a> component or in the <a href="{{ site.baseurl }}/ubuntu-html5-theme/widgets/pagestack/">pagestack</a>.
 
 
 While it is technically possible to place more than five icons in the toolbar, the Ubuntu Touch guidelines specify that <a href="http://design.ubuntu.com/apps/building-blocks/toolbar">the maximum number of icons is five</a>.
 
 Here is a screenshot of such a toolbar:
-[caption id="attachment_1688" align="alignnone" width="635"]<a href="http://daniel-beck.org/wp-content/uploads/Toolbar.png"><img src="http://daniel-beck.org/wp-content/uploads/Toolbar.png" alt="Toolbar" width="635" height="285" class="size-full wp-image-1688" /></a> Toolbar[/caption]
+
+![Ubuntu HTML5 toolbar]({{ site.baseurl }}/images/toolbar.png)
 
 Toolbar is defined in the file <a href="file:///usr/share/ubuntu-html5-theme/0.1/ambiance/js/toolbar.js">/usr/share/ubuntu-html5-theme/0.1/ambiance/js/toolbar.js</a>
 
@@ -56,22 +57,15 @@ interface Toolbar{
 
 <h2>Javascript access method.</h2>
 
-<dl>
-<dt>void show()</dt>
-<dd>displays the toolbar.</dd>
+* _void show()_. Displays the toolbar.
 
 
-<dt>void hide()</dt>
-<dd>hides the toolbar.</dd>
+* _void hide()_. hides the toolbar.
+
+* _void toggle()_. shows the toolbar if it is hidden, hides it if it is shown.
 
 
-<dt>void toggle()</dt>
-<dd>shows the toolbar if it is hidden, hides it if it is shown.</dd>
-
-
-<dt>void touch(AsyncOperationCallback callback)</dt>
-<dd>Registers a listener for <code>touch</code> events. Usually, the listener calls "toolbar.toggle()" to display or hide the toolbar when the user touches it.</dd>
-</dl>
+* _void touch(AsyncOperationCallback callback)_. Registers a listener for <code>touch</code> events. Usually, the listener calls "toolbar.toggle()" to display or hide the toolbar when the user touches it.
 
 The following example registers an event handler for touch events:
 

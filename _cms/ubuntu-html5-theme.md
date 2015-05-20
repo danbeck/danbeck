@@ -2,9 +2,16 @@
 layout: default
 ---
 
+<div>
+BEWARE: the information above is OUTDATED!
+</div>
 
-<section id="developerDocumentation"><a href="https://launchpad.net/ubuntu-html5-theme">Ubuntu HTML5 Theme</a> is a collection of CSS and Javascript files, matching the QML themes from the Ubuntu Touch SDK. This page is a reference documentation of the widgets available on Ubuntu HTML5. Further information and examples can be found on <a href="{{ site.baseurl }}/category/ubuntu-html5/">my blog series</a>.
-<h1>Developer documentation</h1>
+<section id="developerDocumentation"><a href="https://launchpad.net/ubuntu-html5-theme">Ubuntu HTML5 Theme</a> is 
+a collection of CSS and Javascript files, matching the QML themes from the Ubuntu Touch SDK. This page is a
+ reference documentation of the widgets available on Ubuntu HTML5. Further information and examples can be 
+ found on <a href="{{ site.baseurl }}/taming-the-ubuntu-html5-platform-part1/">my blog series</a>.
+
+<h2>Developer documentation</h2>
 <div class="documentationBox" >
 
 <ul style=" width:200px; float: left;list-style-position: inside;margin-left:0px;" >
