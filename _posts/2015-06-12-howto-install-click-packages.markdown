@@ -22,5 +22,5 @@ Then, login to the device and install it:
 ```bash
 daniel@laptop:~$ adb shell
 phablet@ubuntu-phablet:~# sudo -iu phablet
-phablet@ubuntu-phablet:~# pkcon install-local org.ubuntu.myapp_0.1.0_armhf.click 
+phablet@ubuntu-phablet:~# pkcon install-local --allow-untrusted Downloads/org.ubuntu.myapp_0.1.0_armhf.click 
 ```
