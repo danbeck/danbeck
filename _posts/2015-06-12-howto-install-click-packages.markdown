@@ -47,8 +47,10 @@ Because phablet-shell is based on ssh, we need to create a ssh public key:
 ssh-keygen 
 ```
 
-Finally, start the phablet-shell
+Finally, start the phablet-shell. We can then install the click package from the command line:
 
 ```bash
 phablet-shell
+phablet@ubuntu-phablet:~# pkcon install-local --allow-untrusted \
+Downloads/org.ubuntu.myapp_0.1.0_armhf.click
 ```
