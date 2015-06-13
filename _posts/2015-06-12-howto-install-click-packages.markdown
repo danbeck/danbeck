@@ -31,9 +31,9 @@ Downloads/org.ubuntu.myapp_0.1.0_armhf.click
 
 ## Using _phablet-shell_ instead of _adb shell_
 
-The _adb shell_ doesn't work correctly if the terminal size is less than 80x24. The annoying doesn't 
-happen with the _phablet-shell_. So let's install and configure it. If you haven't already done it, 
-install phablet command line tools:
+The _adb shell_ doesn't work correctly if the terminal size is less than 80x24: the line wrapping
+bug makes it hard to enter long commands like the ones above. Instead, we install and configure the
+ _phablet-tools_:
 
 ```bash
 sudo apt-get install phablet-tools 
@@ -45,11 +45,8 @@ Because phablet-shell is based on ssh, we need to create a ssh public key:
 ssh-keygen 
 ```
 
-Finally, start the phablet-shell. Then, we can install the click package from the command line and enjoy
-the usual terminal line wrapping experience:
+We are done! Start the phablet-shell.
 
 ```bash
 phablet-shell
-phablet@ubuntu-phablet:~# pkcon install-local --allow-untrusted \
-Downloads/org.ubuntu.myapp_0.1.0_armhf.click
 ```
