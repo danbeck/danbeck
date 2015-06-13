@@ -12,15 +12,14 @@ a click package on your (USB-connected) device with the command line.
 
 First, make sure that the developer mode is enabled: Settings > About Phone > Developer Mode.
 
-To install a click package from the command line on your Ubuntu touch device, the file
-must first be pushed to the device:
+Push the click file to your device:
 
 ```bash
 daniel@laptop:~$ adb push org.ubuntu.myapp_0.1.0_armhf.click /home/phablet/Downloads/
 ```
 
 
-Then, login on the device and install the package: 
+Now, we can login on the device and install the package: 
 
 ```bash
 daniel@laptop:~$ adb shell
@@ -32,10 +31,9 @@ Downloads/org.ubuntu.myapp_0.1.0_armhf.click
 
 ## Using _phablet-shell_ instead of _adb shell_
 
-The adb shell doesn't work correctly if the terminal size is less than 80x24. So let's use the 
-_phablet-shell_ instead of the _adb shell_.
- 
-If you haven't already done it, also install phablet command line tools:
+The _adb shell_ doesn't work correctly if the terminal size is less than 80x24. The annoying doesn't 
+happen with the _phablet-shell_. So let's install and configure it. If you haven't already done it, 
+install phablet command line tools:
 
 ```bash
 sudo apt-get install phablet-tools 
