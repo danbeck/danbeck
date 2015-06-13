@@ -29,7 +29,7 @@ Downloads/org.ubuntu.myapp_0.1.0_armhf.click
 ```
 
 The _adb shell_ doesn't work correctly if the terminal size is less than 80x24: the line wrapping
-bug makes it hard to enter long commands like the ones above. Instead, a better solution is to use
+bug makes it hard to enter long commands like the ones above. A better solution is to use
 the _phablet shell_.
 
 ## Using _phablet-shell_ instead of _adb shell_
@@ -46,7 +46,7 @@ Because phablet-shell is based on ssh, we need to create a ssh public key:
 ssh-keygen 
 ```
 
-We are done! Start the phablet-shel and install the click package like above:
+We are done! Start the phablet-shell to install the click package (like above):
 
 ```bash
 phablet-shell
