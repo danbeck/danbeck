@@ -5,9 +5,15 @@ date:   2015-06-12 22:24:00
 categories: ubuntu
 ---
 
-Click packages are the new packaging format used in Ubuntu Touch.
+Click packages are the new packaging format used in Ubuntu Touch. We show how to install such 
+a click package on your (USB-connected) device with the command line.  
 
-First, make sure that the developer mode is enables: Settings > About Phone > Developer Mode.
+First, make sure that the developer mode is enabled: Settings > About Phone > Developer Mode 
+and install the adb and phablet command line tools:
+```bash
+sudo apt-get install phablet-tools android-tools-adb android-tools-fastboot 
+```
+
 
 To install a click package from the command line on your Ubuntu touch device, the file
 must first be pushed to the device:
