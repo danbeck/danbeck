@@ -5,16 +5,12 @@ date:   2015-06-12 22:24:00
 categories: ubuntu
 ---
 
+## Installing a click package
+
 Click packages are the new packaging format used in Ubuntu Touch. We show how to install such 
 a click package on your (USB-connected) device with the command line.  
 
-First, make sure that the developer mode is enabled: Settings > About Phone > Developer Mode 
-and install the adb and phablet command line tools:
-
-```bash
-sudo apt-get install phablet-tools android-tools-adb android-tools-fastboot 
-```
-
+First, make sure that the developer mode is enabled: Settings > About Phone > Developer Mode.
 
 To install a click package from the command line on your Ubuntu touch device, the file
 must first be pushed to the device:
@@ -24,10 +20,34 @@ daniel@laptop:~$ adb push org.ubuntu.myapp_0.1.0_armhf.click /home/phablet/Downl
 ```
 
 
-Then, login to the device and install it: 
+Then, login on the device and install the package: 
 
 ```bash
 daniel@laptop:~$ adb shell
-phablet@ubuntu-phablet:~# sudo -iu phablet
 phablet@ubuntu-phablet:~# pkcon install-local --allow-untrusted Downloads/org.ubuntu.myapp_0.1.0_armhf.click 
+```
+
+
+
+## Using phablet-shell instead of adb shell
+
+The adb shell doesn't work correctly if the terminal size is 80x24. We can use
+"phablet-shell" instead of the "adb shell".
+ 
+If you haven't already done it, also install phablet command line tools:
+
+```bash
+sudo apt-get install phablet-tools 
+```
+
+Because phablet-shell is based on ssh, we need to create a ssh public key:
+
+```bash
+ssh-keygen 
+```
+
+Finally, start the phablet-shell
+
+```bash
+phablet-shell
 ```
