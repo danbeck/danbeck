@@ -32,8 +32,8 @@ Downloads/org.ubuntu.myapp_0.1.0_armhf.click
 
 ## Using phablet-shell instead of adb shell
 
-The adb shell doesn't work correctly if the terminal size is 80x24. We can use
-"phablet-shell" instead of the "adb shell".
+The adb shell doesn't work correctly if the terminal size is less than 80x24. So let's use the 
+_phablet-shell_ instead of the _adb shell_.
  
 If you haven't already done it, also install phablet command line tools:
 
