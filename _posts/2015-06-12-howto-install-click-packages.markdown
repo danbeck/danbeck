@@ -10,6 +10,7 @@ a click package on your (USB-connected) device with the command line.
 
 First, make sure that the developer mode is enabled: Settings > About Phone > Developer Mode 
 and install the adb and phablet command line tools:
+
 ```bash
 sudo apt-get install phablet-tools android-tools-adb android-tools-fastboot 
 ```
