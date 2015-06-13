@@ -47,7 +47,8 @@ Because phablet-shell is based on ssh, we need to create a ssh public key:
 ssh-keygen 
 ```
 
-Finally, start the phablet-shell. We can then install the click package from the command line:
+Finally, start the phablet-shell. Then, we can install the click package from the command line and enjoy
+the usual terminal line wrapping experience:
 
 ```bash
 phablet-shell
