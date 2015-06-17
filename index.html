@@ -26,14 +26,14 @@ layout: default
 <!-- Pagination links -->
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Read older posts</a>
+    <a href="{{ paginator.previous_page_path }}" class="previous">Read Newer Posts</a>
   {% else %}
-    <span class="previous">Previous</span>
+ <!--  No link needed, we are already at the beginning -->  
   {% endif %}
   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    <a href="{{ paginator.next_page_path }}" class="next">Read Older Posts</a>
   {% else %}
-    <span class="next ">Next</span>
+<!--  No link needed, we are at the end -->   
   {% endif %}
 </div>
