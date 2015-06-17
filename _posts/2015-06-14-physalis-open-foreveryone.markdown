@@ -20,3 +20,6 @@ configure an SDK.
 
 For the moment, ubuntu and android are supported. Other platforms and
 functionalities will follow.
+
+![Physalis Build Cloud: Screenshot of the developers Workplace]({{ site.baseurl }}/images/physalis/Physalis_annoucement.png)
+*Physalis Build Cloud: Screenshot of the developer's workspace*
